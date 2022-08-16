@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'spartan',sans-serif;
+}
+.col-item
+{
+  border: 2px solid #2323A1;
+  border-radius: 5px;
+  background: #FFF;
+}
+.col-item .photo img
+{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.col-item .info
+{
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 1px;
+}
+.col-item:hover .info {
+  background-color: rgba(215, 215, 244, 0.5); 
+}
+.col-item .price
+{
+  /*width: 50%;*/
+  float: left;
+  margin-top: 5px;
+}
+
+.col-item .price h5
+{
+  line-height: 20px;
+  margin: 0;
+}
+
+.price-text-color
+{
+  color: #00990E;
+}
+
+.col-item .info .rating
+{
+  color: #003399;
+}
+
+.col-item .rating
+{
+  /*width: 50%;*/
+  float: left;
+  font-size: 17px;
+  text-align: right;
+  line-height: 52px;
+  margin-bottom: 10px;
+  height: 52px;
+}
+#too{
+    text-decoration: none;
+    color: #088178;
+   
+    transition: .3 ease;
+
+}
+#to:hover{
+    transform: translate(3px 5px);
+    color: #065550;
+}
+
+.col-item .separator
+{
+  border-top: 1px solid #FFCCCC;
+}
+
+.clear-left
+{
+  clear: left;
+}
+
+.col-item .separator p
+{
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.col-item .separator p i
+{
+  margin-right: 5px;
+}
+.col-item .btn-add
+{
+  width: 50%;
+  float: left;
+}
+
+.col-item .btn-add
+{
+  border-right: 1px solid #CC9999;
+}
+
+.col-item .btn-details
+{
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+}
+.controls
+{
+  margin-top: 20px;
+}
+[data-slide="prev"]
+{
+  margin-right: 10px;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+h4{
+    font-size: 20px;
+    
+    color: #222;  
+}
+h6{
+    font-weight: 700;
+    font-size: 12px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+.section-p1{
+    padding: 40px 0;
+
+}
+.section-m1{
+    margin: 40px 0;
+
+}
+body{
+    width: 100%;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+#neubar {
+    background: none;
+    margin: auto;
+    
+  }
+   
+  .nav-item .active {
+    border-radius: 6px;
+    background: #cce7d0;
+    box-shadow:  4px 4px 8px #cce7d0,
+                 -4px -4px 8px #cce7d0;
+  }
+ 
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+   
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+#hero{
+    background-image: url("https://www.airyhair.com/media/catalog/product/cache/1/thumbnail/900x631/c96a280f94e22e3ee3823dd0a1a87606/m/i/xmicro-ring-loop-extensions-before-after_1.jpg.pagespeed.ic.UMxIny5U5y.webp");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 50% right 0;
+    padding: 12em 80px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+
+}
+#mobile{
+    display: none;
+}
+#hero h4{
+    padding-bottom: 15px;
+
+}
+/* #hero h1{
+    background: #088178;
+} */
+#hero button{
+    background-color:#088178;
+    border-radius: 40%;
+    background-color: transparent;
+    color:  #088178;
+    border: 0;
+    padding: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#close{
+    display: none;
+}
+#feature{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+#feature .fe{
+    width: 380px;
+    min-height: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+    margin-left: 60px;
+    
+}
+#bag{
+    display: none;
+}
+
+#feature .fe h5{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+#too{
+    color: #088178;
+    text-decoration: none;
+    margin-bottom: 30px;
+   
+}
+.trendingHeader{
+text-align: center;
+}
+#trending{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#con{
+    width: 400px;
+    padding: 20px 20px;
+}
+
+
+
+#trending #con:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+#trending #con img{
+    width: 100%;
+    min-height: 12%;
+    border-radius: 20px;
+}
+#trending #con .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#trending #con .des span{
+    color: #606063;
+    font-size: 12px;
+}
+#trending #con .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+#trending #con.cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #222;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #31402b;
+
+}
+.section-m1{
+    margin: 100px 0;
+   
+}
+#ma{
+    margin-right: 50px;
+    padding-left: 50px;
+
+}
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+#newsletter p span{
+   
+    color: yellow ;
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+}
+#newsletter button{
+  background-color: #cce7d0;
+  color: white;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter .form{
+    display: flex;
+    width: 40%;
+} 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+footer a {
+    font-size: 13px;
+    color: #222;
+    margin-bottom: 12px;
+    text-decoration: none;
+
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #088178;
+    padding-right: 6px;
+    cursor: pointer;
+}
+#page-header{
+    background-image: url("https://www.beautyforever.com/media/catalog/product/cache/1/small_image/257x257/9df78eab33525d08d6e5fb8d27136e95/u/p/upart-1.png");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#page-header h2,
+#page-header p{
+    color: #fff;
+    }
+    #pagination{
+        text-align: center;
+    }
+    #pagination a{
+        text-decoration: none;
+        background-color: #088178;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: 600;
+    }
+    #pagination a i{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #details .single{
+        width: 40%;
+        margin-right: 50px;
+    }
+    .small{
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-img-col{
+      flex-basis: 25%;  
+      cursor: pointer;
+    }
+    #details .single-pro{
+        width: 50%;
+        padding-top: 30px;
+
+    }
+    #details .single-pro h4{
+        padding: 40px 0 20px 0;
+    }
+    #detail .single-pro button{
+        background: #088178;
+        color: #fff;
+    }
+    #add{
+        position: absolute;
+        top: 300px;
+        right: 600px;
+        background: rgba(179, 209, 179, 0.567);
+        border: rgb(88, 118, 88);
+        font-size: large;
+
+    }
+    #addd{
+        position: absolute;
+        top: 280px;
+        right: 600px;
+        
+    }
+    
+@media (max-width:799px){
+    section-p1{
+        padding: 40px 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+
+        box-shadow: 0 40px 60px rgba(0 0 0 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+    #navbar li{
+        margin-bottom: 25px ;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: black;
+        font-size: 24px;
+        padding-left: 20px;
+
+    }
+    #navbar .active{
+        right: 0;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: black;
+        font-size: 24px;
+    }
+    #bag{
+        display: none;
+    }
+    #hero{
+        height: 70vh;
+       
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+       
+        
+    
+    }
+    #feature{
+       
+        justify-content: center;
+        
+    }
+    #feature .fe{
+      margin: 15px 15px;
+    }
+    #trending .container{
+       
+        justify-content: center;
+       
+    }
+    #trending #con{
+       
+        margin: 15px;
+       
+    }
+    #newsletter.form{
+        width: 70%;
+    }
+    
+}
+@media(max-width:477px){
+    section-p1{
+        padding: 20px;
+    }
+    #header{
+        padding: 10px 30px;
+    }
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    h1{
+       font-size: 38px; 
+    }
+    h1{
+        font-size: 32px; 
+     }
+     #feature.fe{
+        width: 155px;
+        margin: 0 0 15px 0;
+     }
+     #feature{
+        justify-content: space-between;
+     }
+     #trending.con{
+        width: 100%;
+
+     }
+     #newsletter{
+        padding: 40px 20px;
+     }
+     #newsletter .form{
+        width: 100%;
+     }
+}
+
+
+
